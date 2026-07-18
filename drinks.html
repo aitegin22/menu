@@ -1,10 +1,54 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Drinks</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Drinks</h1>
-    <p>Green tea — by the pot. $3</p>
-    <a href="index.html">Back to the menu</a>
+    <header class="site-header">
+      <a class="brand" href="index.html">Plov House</a>
+      <nav class="site-nav">
+        <a href="index.html">Menu</a>
+        <a href="drinks.html" class="current">Drinks</a>
+        <a href="reserve.html">Reserve</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu">
+        <h1>Drinks</h1>
+        <img class="banner-photo" src="images/tea.svg" alt="A pot of green tea with two cups">
+        <ul class="dish-list">
+          <li class="dish">
+            <div class="dish-body">
+              <h3 class="dish-name">Green tea</h3>
+              <p class="dish-desc">Green tea — by the pot.</p>
+            </div>
+            <span class="price">$3</span>
+          </li>
+          <li class="dish">
+            <div class="dish-body">
+              <h3 class="dish-name">Ayran</h3>
+              <p class="dish-desc">Ayran — chilled salted yogurt drink.</p>
+            </div>
+            <span class="price">$4</span>
+          </li>
+          <li class="dish">
+            <div class="dish-body">
+              <h3 class="dish-name">Compote</h3>
+              <p class="dish-desc">Compote — house-brewed dried fruit.</p>
+            </div>
+            <span class="price">$3</span>
+          </li>
+        </ul>
+        <p class="menu-note"><a href="index.html">Back to the menu</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Plov House · 12 Silk Road Ave · Open Tue–Sun, 12–10pm · (555) 012-3456</p>
+    </footer>
   </body>
 </html>

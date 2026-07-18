@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reserve a table</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Plov House</a>
+      <nav class="site-nav">
+        <a href="index.html">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="reserve.html" class="current">Reserve</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="reserve">
+        <h1>Reserve a table</h1>
+        <p class="reserve-intro">
+          Tell us when to expect you. Submitting opens your email app with the
+          details filled in — send it and we'll confirm by reply.
+        </p>
+
+        <form class="reserve-form" action="mailto:reservations@plovhouse.example" method="post" enctype="text/plain">
+          <p class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </p>
+
+          <p class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </p>
+
+          <p class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </p>
+
+          <p class="field">
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required>
+          </p>
+
+          <p class="field">
+            <label for="time">Time</label>
+            <input id="time" name="time" type="time" required min="12:00" max="22:00">
+          </p>
+
+          <p class="field">
+            <label for="party">Party size</label>
+            <input id="party" name="party" type="number" required min="1" max="12" value="2">
+          </p>
+
+          <p class="field">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="High chair, allergies, occasion…"></textarea>
+          </p>
+
+          <p class="field">
+            <button class="button" type="submit">Request table</button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Plov House · 12 Silk Road Ave · Open Tue–Sun, 12–10pm · (555) 012-3456</p>
+    </footer>
+  </body>
+</html>

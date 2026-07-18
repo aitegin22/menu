@@ -1,12 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Plov House</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Plov House</h1>
-    <img src="images/plov.png">
-    <p>Plov — rice, carrots, lamb. $12</p>
-    <p>Lagman — hand-pulled noodles. $10</p>
-    <a href="drinks.html">Drinks</a>
+    <header class="site-header">
+      <a class="brand" href="index.html">Plov House</a>
+      <nav class="site-nav">
+        <a href="index.html" class="current">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="reserve.html">Reserve</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-photo" src="images/plov.png" alt="A plate of plov — rice, carrots, and lamb">
+        <div class="hero-text">
+          <h1>Plov House</h1>
+          <p class="tagline">Central Asian home cooking, one pot at a time.</p>
+          <a class="button" href="reserve.html">Reserve a table</a>
+        </div>
+      </section>
+
+      <section class="menu">
+        <h2>The Menu</h2>
+        <ul class="dish-list">
+          <li class="dish">
+            <img class="dish-photo" src="images/plov.png" alt="Plov">
+            <div class="dish-body">
+              <h3 class="dish-name">Plov</h3>
+              <p class="dish-desc">Plov — rice, carrots, lamb.</p>
+            </div>
+            <span class="price">$12</span>
+          </li>
+          <li class="dish">
+            <img class="dish-photo" src="images/lagman.svg" alt="Lagman">
+            <div class="dish-body">
+              <h3 class="dish-name">Lagman</h3>
+              <p class="dish-desc">Lagman — hand-pulled noodles.</p>
+            </div>
+            <span class="price">$10</span>
+          </li>
+        </ul>
+        <p class="menu-note">Thirsty? See our <a href="drinks.html">Drinks</a>.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Plov House · 12 Silk Road Ave · Open Tue–Sun, 12–10pm · (555) 012-3456</p>
+    </footer>
   </body>
 </html>

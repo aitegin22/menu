@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Lagman noodles">
+  <rect width="800" height="600" fill="#e8ddc7"/>
+  <circle cx="400" cy="300" r="220" fill="#c9702f"/>
+  <circle cx="400" cy="300" r="180" fill="#e6a95b"/>
+  <g stroke="#8a4a1e" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M270 300 q130 -90 260 0"/>
+    <path d="M270 330 q130 -60 260 0"/>
+    <path d="M270 270 q130 -120 260 0"/>
+    <path d="M290 360 q110 -40 220 0"/>
+  </g>
+  <circle cx="330" cy="250" r="18" fill="#b23c2e"/>
+  <circle cx="470" cy="340" r="16" fill="#3e7d3a"/>
+  <circle cx="450" cy="240" r="14" fill="#b23c2e"/>
+  <text x="400" y="560" font-family="Georgia, serif" font-size="40" fill="#5a3a1a" text-anchor="middle">Lagman</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A pot of green tea with two cups">
+  <rect width="800" height="600" fill="#e8ddc7"/>
+  <ellipse cx="400" cy="470" rx="300" ry="40" fill="#d8c9a8"/>
+  <path d="M300 250 h200 a30 30 0 0 1 30 30 v90 a130 130 0 0 1 -260 0 v-90 a30 30 0 0 1 30 -30 z" fill="#3e7d3a"/>
+  <path d="M530 300 q70 10 60 70 q-8 40 -60 40" fill="none" stroke="#3e7d3a" stroke-width="18"/>
+  <path d="M270 300 q-40 10 -30 50" fill="none" stroke="#3e7d3a" stroke-width="18"/>
+  <rect x="360" y="215" width="80" height="24" rx="8" fill="#2f5f2c"/>
+  <g fill="#5aa14f">
+    <path d="M360 170 q10 -30 0 -55 q-25 20 0 55"/>
+    <path d="M400 165 q10 -35 0 -60 q-25 22 0 60"/>
+    <path d="M440 170 q10 -30 0 -55 q-25 20 0 55"/>
+  </g>
+  <ellipse cx="220" cy="440" rx="55" ry="22" fill="#c9a24f"/>
+  <path d="M170 435 a50 40 0 0 0 100 0 z" fill="#e6c877"/>
+  <ellipse cx="580" cy="440" rx="55" ry="22" fill="#c9a24f"/>
+  <path d="M530 435 a50 40 0 0 0 100 0 z" fill="#e6c877"/>
+  <text x="400" y="560" font-family="Georgia, serif" font-size="40" fill="#2f5f2c" text-anchor="middle">Green tea</text>
+</svg>
